@@ -1,0 +1,28 @@
+quantserver
+============
+This is the first commit to the rewrite of the GIT version of quant server
+
+Author: Daniel Koh
+Email: daniel.wkoh@yahoo.com.sg
+
+Improvements
+------------
+- Removed dependency on Qt
+- Removed need for a messaging system
+- Added web server capabilities
+
+Todos:
+-------
+- Unmarshall chaiscript returns into json
+- Make server more efficient with asio async
+- Create more option pricers
+- Create smart yield curves
+- Move to a cmake build system
+
+Dependencies
+---------------
+- chaiscript http://chaiscript.com/
+- quantlib http://quantlib.org/index.shtml
+- boost http://www.boost.org/
+- c++ netlib http://cpp-netlib.github.com/latest/index.html
+- https://github.com/lakmeer/rapidjson

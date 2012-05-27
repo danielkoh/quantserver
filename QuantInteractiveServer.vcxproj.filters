@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\datasource">
+      <UniqueIdentifier>{c1a2878e-c1e4-453a-821b-eeed2e6b608d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\datasource">
+      <UniqueIdentifier>{ebdfec40-1e5d-46ac-aa4a-ce2850760b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\expression">
+      <UniqueIdentifier>{044ece23-e4e8-4e42-a6b4-e424a5f73446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\expression">
+      <UniqueIdentifier>{1afd4e4f-2ae6-48b2-af52-f9df698103dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\finance">
+      <UniqueIdentifier>{739f8b3d-36ad-4da1-946e-fb017ef67cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\finance">
+      <UniqueIdentifier>{1eb83bac-b66e-4cc6-af02-4d2ad6c34b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\finance\indicators">
+      <UniqueIdentifier>{491d4e2a-394a-4c62-b5d1-85e166e5a4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\finance\pricer">
+      <UniqueIdentifier>{b3cf4fea-7b63-474a-ace5-136b506968b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\finance\equity">
+      <UniqueIdentifier>{577501d3-3e6d-4341-9b6d-7826e097113d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\finance\equity">
+      <UniqueIdentifier>{ea0e6720-c925-4c56-bde8-76ecd6216378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\finance\pricer">
+      <UniqueIdentifier>{5723f2b1-2fd7-4902-9380-55dab5f66ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\expression\value_processors">
+      <UniqueIdentifier>{58dfa3ff-f928-4e39-a8e3-4b1b1449343e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\expression\value_processors">
+      <UniqueIdentifier>{995d1a39-b82e-4d12-827a-d4350fcd64c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\expression\series_processors">
+      <UniqueIdentifier>{2d4fd89e-ddd4-4e51-a334-e46dcaf4bebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\expression\series_processors">
+      <UniqueIdentifier>{88fc22b7-e166-4647-a4fc-de9ceaf2f400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\finance\equity\indicators">
+      <UniqueIdentifier>{9f37b1fe-152c-4314-9480-afd7a071f4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\server">
+      <UniqueIdentifier>{016c2b5b-9a0a-4d65-ad5f-c8e0415275ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\server">
+      <UniqueIdentifier>{d3e3719a-4f5e-4b8e-bea5-ee912761b0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\server\controllers">
+      <UniqueIdentifier>{056b8b3e-9bf7-4690-96de-3b5f1d67ca00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\server\controllers">
+      <UniqueIdentifier>{1a75f32d-4d46-4adc-b2b4-dee3e4158002}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock.cpp">
+      <Filter>Source Files\finance\equity</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSeries.cpp">
+      <Filter>Source Files\finance\equity</Filter>
+    </ClCompile>
+    <ClCompile Include="PriceAtDate.cpp">
+      <Filter>Source Files\finance\equity</Filter>
+    </ClCompile>
+    <ClCompile Include="FinanceDataLoader.cpp">
+      <Filter>Source Files\datasource</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVParser.cpp">
+      <Filter>Source Files\datasource</Filter>
+    </ClCompile>
+    <ClCompile Include="series_to_number.cpp">
+      <Filter>Source Files\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="process_value.cpp">
+      <Filter>Source Files\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="value.cpp">
+      <Filter>Source Files\expression\value_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="accumulate.cpp">
+      <Filter>Source Files\expression\value_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="mean.cpp">
+      <Filter>Source Files\expression\series_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="variance.cpp">
+      <Filter>Source Files\expression\series_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="stdev.cpp">
+      <Filter>Source Files\expression\series_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="series_to_series.cpp">
+      <Filter>Source Files\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="mvg.cpp">
+      <Filter>Source Files\expression\series_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="log_series.cpp">
+      <Filter>Source Files\expression\series_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="StockMetadata.cpp">
+      <Filter>Source Files\finance\equity</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramItem.cpp">
+      <Filter>Source Files\finance\equity</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedHistogramItem.cpp">
+      <Filter>Source Files\finance\equity</Filter>
+    </ClCompile>
+    <ClCompile Include="minval.cpp">
+      <Filter>Source Files\expression\series_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="maxval.cpp">
+      <Filter>Source Files\expression\series_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="Histogram.cpp">
+      <Filter>Source Files\finance\equity</Filter>
+    </ClCompile>
+    <ClCompile Include="makehistogram.cpp">
+      <Filter>Source Files\expression\series_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalInformation.cpp">
+      <Filter>Source Files\datasource</Filter>
+    </ClCompile>
+    <ClCompile Include="EquityLoader.cpp">
+      <Filter>Source Files\datasource</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueAtRisk.cpp">
+      <Filter>Source Files\expression\series_processors</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionRegistrator.cpp">
+      <Filter>Source Files\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>Source Files\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpProcessServer.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptEnvironment.cpp">
+      <Filter>Source Files\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispatcher.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerReturnType.cpp">
+      <Filter>Source Files\server</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultController.cpp">
+      <Filter>Source Files\server\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="QuantEvalController.cpp">
+      <Filter>Source Files\server\controllers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stock.h">
+      <Filter>Header Files\finance\equity</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSeries.h">
+      <Filter>Header Files\finance\equity</Filter>
+    </ClInclude>
+    <ClInclude Include="PriceAtDate.h">
+      <Filter>Header Files\finance\equity</Filter>
+    </ClInclude>
+    <ClInclude Include="FinanceDataLoader.h">
+      <Filter>Header Files\datasource</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVParser.h">
+      <Filter>Header Files\datasource</Filter>
+    </ClInclude>
+    <ClInclude Include="series_to_number.h">
+      <Filter>Header Files\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="process_value.h">
+      <Filter>Header Files\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="value.h">
+      <Filter>Header Files\expression\value_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="accumulate.h">
+      <Filter>Header Files\expression\value_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="mean.h">
+      <Filter>Header Files\expression\series_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="variance.h">
+      <Filter>Header Files\expression\series_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="stdev.h">
+      <Filter>Header Files\expression\series_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="series_to_series.h">
+      <Filter>Header Files\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="mvg.h">
+      <Filter>Header Files\expression\series_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="log_series.h">
+      <Filter>Header Files\expression\series_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="StockMetadata.h">
+      <Filter>Header Files\finance\equity</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramItem.h">
+      <Filter>Header Files\finance\equity</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedHistogramItem.h">
+      <Filter>Header Files\finance\equity</Filter>
+    </ClInclude>
+    <ClInclude Include="minval.h">
+      <Filter>Header Files\expression\series_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="maxval.h">
+      <Filter>Header Files\expression\series_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Histogram.h">
+      <Filter>Header Files\finance\equity</Filter>
+    </ClInclude>
+    <ClInclude Include="makehistogram.h">
+      <Filter>Header Files\expression\series_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalInformation.h">
+      <Filter>Header Files\datasource</Filter>
+    </ClInclude>
+    <ClInclude Include="EquityLoader.h">
+      <Filter>Header Files\datasource</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueAtRisk.h">
+      <Filter>Header Files\expression\series_processors</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionRegistrator.h">
+      <Filter>Header Files\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.h">
+      <Filter>Header Files\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpProcessServer.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptEnvironment.h">
+      <Filter>Header Files\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="Dispatcher.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerReturnType.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultController.h">
+      <Filter>Header Files\server\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantEvalController.h">
+      <Filter>Header Files\server\controllers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
